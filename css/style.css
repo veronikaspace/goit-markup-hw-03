@@ -1,0 +1,144 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.logo-header {
+    color: #2e2f42;
+}
+
+.page-nav .link {
+    text-decoration: none;
+    font-weight: 500;
+    color: #2e2f42;
+}
+
+.link:hover, 
+.link:focus {
+    color: #404bbf;
+}
+
+.style {
+    font-style: normal;
+}
+
+.contact {
+    text-decoration: none;
+    color: #434455;
+    cursor: pointer;
+}
+
+.contact:hover,
+.contact:focus {
+    color: #404bbf;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #2e2f42;
+}
+
+.section-title {
+    background-color: rgb(46, 47, 66);
+}
+
+.page-title{
+    font-size: 56px;
+    line-height: 1.07;
+    color: #fff;
+    letter-spacing: 0.02em;
+}
+
+.page-btn {
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.page-btn:hover, 
+.page-btn:focus {
+    background-color: #404bbf;
+}
+
+.studio-hidden {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em
+}
+
+.section-team {
+    background-color: rgb(244, 244, 253);
+}
+
+.studio {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.card {
+    background-color: #ffffff;
+}
+
+.studio-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.section-team .studio-list {
+    text-align: center;
+}
+
+.section-team .text {
+   text-align: center; 
+}
+
+.page-footer {
+    background-color: rgb(46, 47, 66);
+}
+
+.logo .logo-footer {
+    color: #f4f4fd;
+}
+
+.text-footer {
+     color: #f4f4fd;
+}
+
+
+ 
+
