@@ -8,9 +8,64 @@ body {
     background-color: #fff;
 }
 
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1158px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-navigation {
+    display: flex;
+    gap: 76px;
+}
+
+.page-navigation {
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+}
+
+.contact-list {
+    display: flex;
+    gap: 40px;
 }
 
 .logo {
@@ -28,7 +83,7 @@ ul {
     color: #2e2f42;
 }
 
-.page-nav .link {
+.page-navigation .link {
     text-decoration: none;
     font-weight: 500;
     color: #2e2f42;
@@ -70,6 +125,15 @@ h2 {
     line-height: 1.07;
     color: #fff;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-container {
+    height: 600px;
+    padding-top: 188px;
+    padding-bottom: 206px;
 }
 
 .page-btn {
@@ -81,6 +145,14 @@ h2 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    display: block;
+    border: none;
+    margin-top: 48px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .page-btn:hover, 
