@@ -41,7 +41,7 @@ img {
 .container {
     max-width: 1158px;
     margin: 0 auto;  
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
 }
 
 .header-box {
@@ -50,9 +50,7 @@ img {
 
 .header-container {
     display: flex;
-    justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 23px;   
+    justify-content: space-between; 
 }
 
 .header-navigation {
