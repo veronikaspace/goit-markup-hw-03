@@ -66,8 +66,10 @@ img {
 }
 
 .contact-list {
-    display: flex;
+    display: inline-flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo {
@@ -79,7 +81,6 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    margin-right: 76px;
 }
 
 .logo-header {
@@ -92,6 +93,7 @@ img {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
 }
 
 .link:hover, 
@@ -219,7 +221,6 @@ h2 {
 
 .card {
     background-color: #ffffff;
-    border: none;
     align-items: center;
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
