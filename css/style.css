@@ -55,7 +55,6 @@ img {
 
 .header-navigation {
     display: flex;
-    gap: 76px;
     align-items: center;
 }
 
@@ -66,7 +65,7 @@ img {
 }
 
 .contact-list {
-    display: inline-flex;
+    display: flex;
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -81,6 +80,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .logo-header {
